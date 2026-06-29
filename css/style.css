@@ -8,16 +8,32 @@
     box-sizing: border-box  ;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =======================
+        CSS VARIABLES
+======================== */
+
+:root{
+    --primary-color: #6F4E37;
+    --secondary-color: #D4A373;
+    --light-color: #FFF8F0;
+    --dark-color: #2C1810;
+    --text-color: #333333;
+}
+
 /* =======================
         HEADER
 ======================== */
 
 header{
-    background-color: #6F4E37;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
+    padding: 18px 70px;
 }
 
 .logo h1{
@@ -29,9 +45,6 @@ header{
         NAVIGATION
 ======================== */
 
-nav{
-    margin-top:20px;
-}
 
 nav ul {
     display: flex;
@@ -44,7 +57,8 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: 600;
+    transition: 0.3s;
 }
 
 /* =======================
@@ -58,7 +72,63 @@ nav ul li a {
 }
 
 .logo img {
-    width: 60px;
-    height: 60px;
+    width: 48px;
+    height: 48px;
     object-fit:contain;
+}
+
+/* =======================
+       HERO SECTION
+======================== */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 70px;
+    gap:60px;
+    background-color: var(--light-color);
+}
+
+.hero-content{
+    flex:1;
+}
+
+.hero-image{
+    flex:1;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 550px;
+    display:block;
+    margin: auto;
+    /* border-radius: 10px; */
+}
+
+.hero-content h2 {
+    font-size: 56px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: var(--text-color);
+}
+
+.btn{
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: var(--dark-color);
 }
