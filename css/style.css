@@ -257,5 +257,60 @@ flex: 1;
     font-size: 22px;
     font-weight: bold;
     color: var(--primary-color);
+}
 
+
+/* =======================
+    MENU CARD CONTENT
+======================== */
+
+.menu-content{
+    padding:20px;
+}
+
+.menu-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.rating{
+    color: #f4b400;
+    font-weight: bold;
+}
+
+.price{
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-content p{
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+ .menu-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .order-btn{
+    background-color: var(--primary-color);
+    color:white;
+    text-decoration: none;
+    padding:10px 20px;
+    border-radius: 6px;
+    transition:0.3s;
+ }
+
+ .order-btn:hover{
+    background-color: var(--dark-color);
+ }
+
+.heart{
+    font-size: 22px;
+    cursor: pointer;
 }
