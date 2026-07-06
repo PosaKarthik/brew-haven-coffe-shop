@@ -353,7 +353,13 @@ flex: 1;
 
 .feature-icon {
     font-size: 60px;
+    color:var(--primary-color)
     margin-bottom: 20px;
+    transition:0.3s;
+}
+
+.feature-card:hover .feature-icon{
+    transform: scale(1.2);
 }
 
 .feature-card h3 {
