@@ -370,3 +370,31 @@ flex: 1;
 .feature-card p {
     line-height: 1.8;
 }
+
+
+/* =======================
+    PAGE PLACEHOLDER
+======================== */
+
+.page-banner{
+    padding: 120px 20px;
+    text-align: center;
+    background-color: var(--light-color);
+}
+
+.page-banner h2{
+    font-size: 48px;
+    color:var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.page-banner p{
+    font-size: 20px;
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
