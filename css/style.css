@@ -397,6 +397,23 @@ flex: 1;
 .gallery-item{
     overflow: hidden;
     border-radius: 15px;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    background:rgba(0,0,0,0.6);
+    color: white;
+    padding: 20px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.gallery-item:hover .overlay{
+    opacity: 1;
 }
 
 .gallery-item img{
