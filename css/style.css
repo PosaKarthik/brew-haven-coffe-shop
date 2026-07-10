@@ -431,6 +431,62 @@ flex: 1;
     transform: scale(1.1);
 }
 
+
+/* =======================
+       TESTIMONIALS
+======================== */
+
+
+.testimonials{
+    padding: 80px 70px;
+    background: white;
+}
+
+.testimonials h2{
+    text-align: center;
+    font-size: 42px;
+    color: var(--primary-color);
+    margin-bottom: 50px;
+}
+
+.testimonial-container{
+    display: flex;
+    gap: 30px;
+}
+
+.testimonial-card{
+    flex: 1;
+    background-color: var(--light-color);
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.testimonial-card:hover{
+    transform: translateY(-10px);
+}
+
+.testimonial-card img{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.stars{
+    color:gold;
+    font-size: 22px;
+    margin:15px 0;
+}
+
+blockquote{
+    font-style: italic;
+    line-height: 1.8;
+}
+
 /* =======================
     PAGE PLACEHOLDER
 ======================== */
