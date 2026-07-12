@@ -490,6 +490,67 @@ blockquote{
     line-height: 1.8;
 }
 
+
+/* =======================
+    RESERVATION PREVIEW
+======================== */
+
+.reservation{
+    padding: 80px 70px;
+    background: var(--light-color);
+}
+
+.reservation h2{
+    text-align: center;
+    font-size: 42px;
+    color: var(--primary-color);
+    padding: 20px;
+}
+
+.reservation p{
+    text-align: center;
+    max-width: 600px;
+    margin:0 auto 40px;
+    line-height: 1.8;
+}
+
+.reservation-form{
+    max-width: 600px;
+    margin: auto;
+}
+
+.reservation-form label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.reservation-form input{
+    width: 100%;
+    padding:14px;
+    margin-bottom: 20px;
+    border:1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.reservation-form button{
+    width: 100%;
+    padding: 15px;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.reservation-form button:hover {
+    background: var(--dark-color);
+}
+
+
 /* =======================
     PAGE PLACEHOLDER
 ======================== */
