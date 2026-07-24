@@ -43,4 +43,40 @@
     .hero p{
         font-size: 18px;
     }
+
+     /* =======================
+            ABOUT SECTION
+        ======================== */
+
+    .about{
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 30px;
+    }
+
+    .about-image {
+        margin-bottom: 30px;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+    }
+
+     /* =======================
+            MENU SECTION
+        ======================== */
+
+    .menu-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .menu{
+        padding: 60px 30px;
+    }
+
+    .menu h2 {
+        font-size: 36px;
+    }
 }
