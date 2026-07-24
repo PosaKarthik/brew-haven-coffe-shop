@@ -15,4 +15,32 @@
         justify-content: center;
         gap: 20px;
     }
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 40px;
+    }
+
+    .hero-content{
+        order: 1;
+    }
+
+    .hero-image{
+        order:2;
+        margin-top: 40px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero h2{
+        font-size: 40px;
+    }
+
+    .hero p{
+        font-size: 18px;
+    }
 }
