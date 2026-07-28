@@ -353,7 +353,7 @@ flex: 1;
 
 .feature-icon {
     font-size: 60px;
-    color:var(--primary-color)
+    color:var(--primary-color);
     margin-bottom: 20px;
     transition:0.3s;
 }
@@ -548,6 +548,10 @@ blockquote{
 
 .reservation-form button:hover {
     background: var(--dark-color);
+}
+
+.form-group{
+    padding-bottom: 20px;
 }
 
 

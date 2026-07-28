@@ -85,7 +85,7 @@
           WHY CHOOSE US
         ======================== */
 
-    .features {
+    .feature-container{
         flex-direction: column;
         align-items: center;
     }
@@ -135,12 +135,12 @@
         padding: 60px 30px;
     }
 
-    .reservation form{
+    .reservation-form{
         width: 100%;
     }
 
     .form-group{
-        flex-direction: column;
+        margin-bottom: 20px;
     }
 
     .form-group input{
@@ -229,7 +229,7 @@
     .reservation h2,
     .gallery h2,
     .testimonials h2,
-    .contact-preview{
+    .contact-preview h2{
         font-size: 32px;
     }
 
@@ -294,7 +294,7 @@
     .reservation h2,
     .gallery h2,
     .testimonials h2,
-    .contact-preview{
+    .contact-preview h2{
         font-size: 28px;
     }   
 
@@ -307,7 +307,7 @@
         padding: 30px 15px;
     }
 
-    .copy-right{
+    .copyright{
         font-size: 13px;
     }
 
