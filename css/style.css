@@ -757,3 +757,26 @@ footer hr{
     border: 10px;
 }
 
+
+/* =======================
+     MISSION SECTION
+======================== */
+
+
+.mission-section{
+    background-color: #f9f5f0;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.mission-section h2{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.mission-section p{
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #555;
+}
