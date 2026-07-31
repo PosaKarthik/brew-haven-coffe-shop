@@ -834,3 +834,18 @@ footer hr{
     font-weight: bold;
     color: #6f4e37;
 }
+
+
+/* =======================
+        GALLERY PAGE
+======================== */
+
+.gallery-page {
+    padding: 80px 20px;
+}
+
+.gallery-page h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
