@@ -6,16 +6,14 @@ A modern, responsive, and elegant multi-page coffee shop website built using **H
 
 ## 🌐 Live Demo
 
-🔗 https://posakarthik.github.io/Brew-Haven-Coffee-Shop/
+🔗 https://posakarthik.github.io/brew-haven-coffee-shop/
 
 
 ---
 
 ## 📸 Preview
 
-```md
 ![Brew Haven Preview](images/preview.png)
-```
 
 ---
 
@@ -76,13 +74,13 @@ brew-haven-coffee-shop/
 Clone the repository
 
 ```bash
-git clone https://github.com/PosaKarthik/Brew-Haven-Coffee-Shop.git
+git clone https://github.com/PosaKarthik/brew-haven-coffee-shop.git
 ```
 
 Navigate to the project
 
 ```bash
-cd Brew-Haven-Coffee-Shop
+cd brew-haven-coffee-shop
 ```
 
 Open `index.html` in your browser.
