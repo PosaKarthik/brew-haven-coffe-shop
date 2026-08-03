@@ -36,9 +36,22 @@ header{
     padding: 18px 70px;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img{
+    height: 65px;
+    width: 65px;
+    object-fit: contain;
+}
+
 .logo h1{
     color: white;
-    font-size: 32px;
+    font-size: 48px;
+    margin: 0;
 }
 
 /* =======================
@@ -60,7 +73,6 @@ nav ul li a {
     font-weight: 600;
     transition: 0.3s;
 }
-
 /* =======================
         LOGO
 ======================== */
@@ -75,6 +87,11 @@ nav ul li a {
     width: 48px;
     height: 48px;
     object-fit:contain;
+    transition: 0.3s;
+}
+
+.logo img:hover{
+    transform: rotate(-8deg) scale(1.08);
 }
 
 /* =======================
@@ -913,4 +930,35 @@ footer hr{
 
 .contact-form button:hover {
     background: var(--dark-color);
+}
+
+
+/* =======================
+      RESERVATION PAGE
+======================== */
+
+.reservation-page {
+    padding: 80px 20px;
+}
+
+.reservation-page h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--primary-color);
+}
+
+.opening-hours {
+    background: #f9f5f0;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.opening-hours h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.opening-hours p {
+    margin-bottom: 12px;
+    line-height: 1.8;
 }
