@@ -6,7 +6,7 @@ A modern, responsive, and elegant multi-page coffee shop website built using **H
 
 ## 🌐 Live Demo
 
-🔗 https://posakarthik.github.io/brew-haven-coffee-shop/
+🔗 https://posakarthik.github.io/brew-haven-coffe-shop/
 
 
 ---
